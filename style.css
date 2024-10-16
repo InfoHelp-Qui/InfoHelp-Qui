@@ -1,1 +1,152 @@
+html {
+  
+}
 
+body {
+  margin: 0;
+}
+
+.bottom {
+  background-color: black;
+  color: white;
+  align-items: right;
+  align-content: right;
+  text-align: right;
+  width: 100%;
+}
+
+.top {
+  background-color: rgb(255, 254, 250);
+  /*#ecfefc*/
+  width: 98%;
+  padding-left: 1%;
+  padding-right: 1%;
+}
+
+.base {
+  
+}
+.strunz,h1{
+  margin-top: 0;
+}
+p{
+  margin-bottom: 0;
+}
+h1,h2,h3,h4 {
+  font-family: sans-serif;
+}
+
+ul{
+  padding-top: 7px;
+  padding-bottom: 14px;
+  
+  border-radius: 13px;
+}
+li {
+  background-color: #fef5c3;
+  color:black;
+  /*fef5c3*/
+  margin-top: 7px;
+  width: fit-content;
+  padding: 7px;
+  border-radius: 5px;
+  font-size: 100%;
+  max-width: 100%;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  align-content: center;
+}
+
+.small {
+  filter: sepia(0) saturate(1)  hue-rotate(0deg);
+  height: 30px;
+}
+
+.small:hover{
+  filter: sepia(500) saturate(700%)  hue-rotate(-50deg);
+  transition: 1s;
+}
+
+table {
+  width: fit-content;
+  border-color: black;
+  border: 1px solid;
+}
+
+td {
+  border: 1px solid black;
+  text-align: center;
+  padding: 2px;
+}
+
+th {
+  border: 1px solid black;
+  background-color: #cebdff;
+  padding:4px;
+}
+
+.si {
+  background-color: #befebe;
+}
+
+.no {
+  background-color: #ffadad;
+}
+
+.forse {
+  background-color: #fdfea9;
+}
+
+.cards{
+  width: 100%;
+  height: fit-content;
+  margin:0px;
+  border:0px;
+  padding:0px;
+  min-height: 20rem;
+  border-spacing: 10px 0;
+}
+.card{
+  
+  width: 20%;
+  
+}
+.tcard {
+  margin:0px;
+  border:0px;
+  height: 0.5cm;
+  background-color: gold;
+  text-align: center;
+  padding: 10px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  
+}
+
+.bcard{
+  margin:0px;
+  display: table-cell;
+  width: 20%;
+  border:0px;
+  font-size: 75%;
+  background-color: #212121;
+  color:white;
+  padding: 10px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  font-family: sans-serif;
+  text-align: right;
+}
+.prezzo{
+  margin:0;
+  border:0px;
+  padding: 0;
+  text-align: right;
+  font-family:  Haettenschweiler;
+  font-size: 200%;
+  background-color: #212121;
+  color:gold;
+}
